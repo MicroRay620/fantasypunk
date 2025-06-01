@@ -4,8 +4,8 @@ import React from 'react';
 import { prefetchDNS, preinit } from 'react-dom';
 function CallToAction() {
   const onClick = () => {
-    prefetchDNS("http://localhost:3000/fantasypunk-modpack.zip");
-    window.location.href = "http://localhost:3000/fantasypunk-modpack.zip";
+    prefetchDNS("https://fantasypunk.pages.dev/fantasypunk-modpack.zip");
+    window.location.href = "http://fantasypunk.pages.dev/fantasypunk-modpack.zip";
   }
   return (
     <button onClick={onClick} className="bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded">
