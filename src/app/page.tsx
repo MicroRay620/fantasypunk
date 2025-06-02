@@ -4,7 +4,7 @@ import React from 'react';
 import { prefetchDNS, preinit } from 'react-dom';
 function CallToAction() {
   const onClick = () => {
-    prefetchDNS("https://fantasypunk.pages.dev/fantasypunk-modpack.zip");
+    preinit("https://fantasypunk.pages.dev/fantasypunk-modpack.zip", {as:'script', crossOrigin:'anonymous'});
     window.location.href = "https://fantasypunk.pages.dev/fantasypunk-modpack.zip";
   }
   return (
